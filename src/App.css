@@ -1,0 +1,46 @@
+.app-shell {
+  min-height: 100vh;
+}
+
+.starter-screen {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 2rem;
+}
+
+.starter-panel {
+  width: min(100%, 680px);
+  border: 1px solid rgba(42, 48, 54, 0.16);
+  border-radius: 8px;
+  background: #fffaf3;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  box-shadow: 0 24px 60px rgba(38, 34, 28, 0.08);
+}
+
+.starter-panel p {
+  color: #5f675f;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.starter-panel h1 {
+  color: #1d2b24;
+  font-size: clamp(2.25rem, 8vw, 4rem);
+  line-height: 1;
+  margin: 0 0 1rem;
+}
+
+.starter-panel a {
+  align-items: center;
+  color: #155f4b;
+  display: inline-flex;
+  font-weight: 700;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.starter-panel a:hover {
+  text-decoration: underline;
+}
