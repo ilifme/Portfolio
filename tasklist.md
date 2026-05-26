@@ -22,8 +22,8 @@
 
 ## Personalization
 
-- [ ] Replace `Godul` placeholder copy with final full name or personal brand.
-- [ ] Replace `hello@godul.dev` with active email address.
+- [x] Replace previous placeholder copy with `Alif`.
+- [ ] Replace `hello@alif.dev` with active email address.
 - [ ] Update GitHub and LinkedIn links in `src/data/portfolio.ts`.
 - [ ] Replace project demo URLs with real deployed project links.
 - [ ] Replace project source URLs with real repository links.

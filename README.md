@@ -84,7 +84,7 @@ https://react-portfolio-nu-murex.vercel.app
 
 ## Catatan Personalisasi
 
-- Ganti `hello@godul.dev` dengan email aktif.
+- Ganti `hello@alif.dev` dengan email aktif.
 - Ganti link GitHub dan LinkedIn di `src/data/portfolio.ts`.
 - Ganti `public/resume.html` dengan file CV final.
 - Ganti link demo dan source code proyek dari `https://example.com/...` ke URL nyata.

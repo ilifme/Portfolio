@@ -10,11 +10,11 @@ export const navItems: NavItem[] = [
 ];
 
 export const profile: Profile = {
-  name: 'Godul',
-  initials: 'GD',
+  name: 'Alif',
+  initials: 'AF',
   role: 'React Frontend Developer',
   location: 'Indonesia, UTC+7',
-  email: 'hello@godul.dev',
+  email: 'hello@alif.dev',
   resumeUrl: '/resume.html',
   summary:
     'Saya membangun antarmuka web yang cepat, rapi, dan mudah dipakai untuk produk digital modern.',
@@ -23,7 +23,7 @@ export const profile: Profile = {
   socials: [
     { label: 'GitHub', href: 'https://github.com/', icon: Code2 },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/', icon: BriefcaseBusiness },
-    { label: 'Email', href: 'mailto:hello@godul.dev', icon: Mail },
+    { label: 'Email', href: 'mailto:hello@alif.dev', icon: Mail },
     { label: 'Send brief', href: '#contact', icon: Send },
   ],
 };
