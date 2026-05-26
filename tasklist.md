@@ -57,7 +57,7 @@
 
 - [ ] Create remote Git repository.
 - [ ] Push local commits to remote.
-- [ ] Deploy to Vercel, Netlify, Cloudflare Pages, or another static host.
+- [x] Deploy to Vercel, Netlify, Cloudflare Pages, or another static host.
 - [ ] Configure custom domain if available.
-- [ ] Verify production URL on mobile and desktop.
-- [ ] Update README with final production URL.
+- [x] Verify production URL on mobile and desktop.
+- [x] Update README with final production URL.

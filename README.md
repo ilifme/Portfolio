@@ -74,6 +74,10 @@ Build output berada di folder `dist/`, sehingga proyek bisa dideploy ke Vercel, 
 
 Untuk Vercel:
 
+Production URL:
+
+https://react-portfolio-nu-murex.vercel.app
+
 1. Import repository.
 2. Gunakan build command `npm run build`.
 3. Gunakan output directory `dist`.
