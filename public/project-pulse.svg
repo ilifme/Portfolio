@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">Pulse Analytics Studio preview</title>
+  <desc id="desc">A campaign analytics workspace with charts, insights, and weekly metrics.</desc>
+  <rect width="1280" height="800" fill="#e8eef4"/>
+  <rect x="72" y="62" width="1136" height="676" rx="32" fill="#fffaf2" stroke="#ccd8e4" stroke-width="2"/>
+  <rect x="72" y="62" width="248" height="676" rx="32" fill="#172331"/>
+  <circle cx="130" cy="122" r="20" fill="#8ab6e2"/>
+  <rect x="168" y="108" width="106" height="16" rx="8" fill="#edf7f1"/>
+  <rect x="168" y="136" width="74" height="10" rx="5" fill="#8ab6e2"/>
+  <rect x="112" y="214" width="168" height="42" rx="10" fill="#ffffff" opacity="0.16"/>
+  <rect x="112" y="278" width="168" height="42" rx="10" fill="#ffffff" opacity="0.1"/>
+  <rect x="112" y="342" width="168" height="42" rx="10" fill="#ffffff" opacity="0.1"/>
+  <rect x="366" y="112" width="320" height="34" rx="17" fill="#1d2822"/>
+  <rect x="366" y="168" width="216" height="14" rx="7" fill="#5f6b64"/>
+  <rect x="366" y="222" width="226" height="138" rx="18" fill="#edf3ef" stroke="#d8dfda"/>
+  <rect x="396" y="254" width="110" height="14" rx="7" fill="#5f6b64"/>
+  <rect x="396" y="292" width="152" height="36" rx="10" fill="#2b5f93"/>
+  <rect x="626" y="222" width="226" height="138" rx="18" fill="#edf3ef" stroke="#d8dfda"/>
+  <rect x="656" y="254" width="128" height="14" rx="7" fill="#5f6b64"/>
+  <rect x="656" y="292" width="152" height="36" rx="10" fill="#0d705c"/>
+  <rect x="886" y="222" width="226" height="138" rx="18" fill="#edf3ef" stroke="#d8dfda"/>
+  <rect x="916" y="254" width="118" height="14" rx="7" fill="#5f6b64"/>
+  <rect x="916" y="292" width="152" height="36" rx="10" fill="#b8563a"/>
+  <rect x="366" y="404" width="476" height="262" rx="22" fill="#ffffff" stroke="#d8dfda"/>
+  <rect x="396" y="434" width="180" height="18" rx="9" fill="#1d2822"/>
+  <rect x="408" y="614" width="38" height="28" rx="8" fill="#8ab6e2"/>
+  <rect x="464" y="570" width="38" height="72" rx="8" fill="#2b5f93"/>
+  <rect x="520" y="534" width="38" height="108" rx="8" fill="#8ab6e2"/>
+  <rect x="576" y="492" width="38" height="150" rx="8" fill="#0d705c"/>
+  <rect x="632" y="542" width="38" height="100" rx="8" fill="#8ab6e2"/>
+  <rect x="688" y="508" width="38" height="134" rx="8" fill="#b8563a"/>
+  <rect x="744" y="462" width="38" height="180" rx="8" fill="#2b5f93"/>
+  <rect x="878" y="404" width="234" height="262" rx="22" fill="#ffffff" stroke="#d8dfda"/>
+  <rect x="908" y="434" width="132" height="18" rx="9" fill="#1d2822"/>
+  <circle cx="996" cy="548" r="74" fill="none" stroke="#d8dfda" stroke-width="24"/>
+  <path d="M996 474 A74 74 0 0 1 1064 578" fill="none" stroke="#2b5f93" stroke-width="24" stroke-linecap="round"/>
+  <path d="M1064 578 A74 74 0 0 1 944 604" fill="none" stroke="#0d705c" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="996" cy="548" r="34" fill="#edf3ef"/>
+</svg>

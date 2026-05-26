@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">Atlas Commerce UI preview</title>
+  <desc id="desc">A responsive commerce storefront with product cards and checkout summary.</desc>
+  <rect width="1280" height="800" fill="#f2ece4"/>
+  <rect x="70" y="58" width="1140" height="684" rx="32" fill="#fffaf2" stroke="#d7cec2" stroke-width="2"/>
+  <rect x="120" y="108" width="1040" height="64" rx="16" fill="#1d2822"/>
+  <circle cx="158" cy="140" r="16" fill="#ef987d"/>
+  <rect x="194" y="128" width="142" height="16" rx="8" fill="#fffaf2"/>
+  <rect x="800" y="122" width="82" height="28" rx="8" fill="#ffffff" opacity="0.18"/>
+  <rect x="900" y="122" width="82" height="28" rx="8" fill="#ffffff" opacity="0.18"/>
+  <rect x="1000" y="122" width="110" height="28" rx="8" fill="#ef987d"/>
+  <rect x="120" y="214" width="620" height="90" rx="20" fill="#edf3ef" stroke="#d8dfda"/>
+  <rect x="150" y="240" width="280" height="20" rx="10" fill="#1d2822"/>
+  <rect x="150" y="274" width="450" height="12" rx="6" fill="#728077"/>
+  <rect x="120" y="346" width="184" height="238" rx="22" fill="#ffffff" stroke="#d8dfda"/>
+  <rect x="146" y="374" width="132" height="112" rx="18" fill="#e6ece9"/>
+  <rect x="164" y="398" width="96" height="64" rx="14" fill="#b8563a"/>
+  <rect x="146" y="514" width="96" height="14" rx="7" fill="#1d2822"/>
+  <rect x="146" y="544" width="132" height="10" rx="5" fill="#8a978f"/>
+  <rect x="146" y="612" width="132" height="36" rx="8" fill="#0d705c"/>
+  <rect x="330" y="346" width="184" height="238" rx="22" fill="#ffffff" stroke="#d8dfda"/>
+  <rect x="356" y="374" width="132" height="112" rx="18" fill="#e6ece9"/>
+  <rect x="374" y="398" width="96" height="64" rx="14" fill="#2b5f93"/>
+  <rect x="356" y="514" width="112" height="14" rx="7" fill="#1d2822"/>
+  <rect x="356" y="544" width="132" height="10" rx="5" fill="#8a978f"/>
+  <rect x="356" y="612" width="132" height="36" rx="8" fill="#0d705c"/>
+  <rect x="540" y="346" width="184" height="238" rx="22" fill="#ffffff" stroke="#d8dfda"/>
+  <rect x="566" y="374" width="132" height="112" rx="18" fill="#e6ece9"/>
+  <rect x="584" y="398" width="96" height="64" rx="14" fill="#b8563a" opacity="0.82"/>
+  <rect x="566" y="514" width="104" height="14" rx="7" fill="#1d2822"/>
+  <rect x="566" y="544" width="132" height="10" rx="5" fill="#8a978f"/>
+  <rect x="566" y="612" width="132" height="36" rx="8" fill="#0d705c"/>
+  <rect x="790" y="214" width="324" height="434" rx="24" fill="#ffffff" stroke="#d8dfda"/>
+  <rect x="824" y="246" width="144" height="18" rx="9" fill="#1d2822"/>
+  <rect x="824" y="300" width="256" height="62" rx="14" fill="#edf3ef"/>
+  <rect x="846" y="320" width="92" height="12" rx="6" fill="#5f6b64"/>
+  <rect x="846" y="342" width="188" height="8" rx="4" fill="#a0aaa4"/>
+  <rect x="824" y="384" width="256" height="62" rx="14" fill="#edf3ef"/>
+  <rect x="846" y="404" width="110" height="12" rx="6" fill="#5f6b64"/>
+  <rect x="846" y="426" width="188" height="8" rx="4" fill="#a0aaa4"/>
+  <rect x="824" y="500" width="256" height="2" fill="#d8dfda"/>
+  <rect x="824" y="536" width="118" height="14" rx="7" fill="#5f6b64"/>
+  <rect x="1006" y="536" width="74" height="14" rx="7" fill="#1d2822"/>
+  <rect x="824" y="586" width="256" height="44" rx="10" fill="#b8563a"/>
+</svg>
