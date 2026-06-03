@@ -12,8 +12,8 @@ export function Contact({ profile }: ContactProps) {
     <section className="section contact-section" id="contact" aria-labelledby="contact-title">
       <SectionHeading
         eyebrow="Contact"
-        title="Punya proyek React yang perlu dibuat lebih rapi?"
-        description="Kirim konteks singkat tentang kebutuhan UI, timeline, dan target pengguna."
+        title="Punya project Laravel atau React yang ingin dibuat?"
+        description="Kirim konteks singkat tentang kebutuhan website, fitur utama, timeline, dan target pengguna."
       />
       <div className="contact-layout">
         <div className="contact-panel">

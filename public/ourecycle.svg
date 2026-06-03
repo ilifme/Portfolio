@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">Ourecycle app preview</title>
+  <desc id="desc">A Laravel and React recycle platform interface with program cards, activity data, and user dashboard.</desc>
+  <rect width="1280" height="800" fill="#e8f3ec"/>
+  <rect x="70" y="58" width="1140" height="684" rx="32" fill="#fffaf2" stroke="#cfd8d2" stroke-width="2"/>
+  <rect x="70" y="58" width="1140" height="92" rx="32" fill="#10372f"/>
+  <circle cx="126" cy="104" r="18" fill="#6bd0b4"/>
+  <rect x="164" y="88" width="138" height="18" rx="9" fill="#edf7f1"/>
+  <rect x="164" y="118" width="92" height="10" rx="5" fill="#96cdbb"/>
+  <rect x="770" y="88" width="92" height="36" rx="9" fill="#ffffff" opacity="0.18"/>
+  <rect x="886" y="88" width="92" height="36" rx="9" fill="#ffffff" opacity="0.18"/>
+  <rect x="1002" y="88" width="130" height="36" rx="9" fill="#6bd0b4"/>
+
+  <rect x="116" y="202" width="420" height="214" rx="24" fill="#ffffff" stroke="#d8dfda"/>
+  <rect x="148" y="236" width="190" height="20" rx="10" fill="#1d2822"/>
+  <rect x="148" y="274" width="308" height="12" rx="6" fill="#6f7f75"/>
+  <circle cx="250" cy="344" r="44" fill="#dff1e8"/>
+  <path d="M250 300c25 0 44 19 44 44 0 15-7 28-18 36" fill="none" stroke="#0d705c" stroke-width="14" stroke-linecap="round"/>
+  <path d="M276 380l-2-34 30 16" fill="#0d705c"/>
+  <path d="M250 388c-25 0-44-19-44-44 0-15 7-28 18-36" fill="none" stroke="#b8563a" stroke-width="14" stroke-linecap="round"/>
+  <path d="M224 308l2 34-30-16" fill="#b8563a"/>
+  <rect x="346" y="322" width="130" height="16" rx="8" fill="#1d2822"/>
+  <rect x="346" y="354" width="96" height="12" rx="6" fill="#6f7f75"/>
+
+  <rect x="574" y="202" width="290" height="214" rx="24" fill="#edf3ef" stroke="#d8dfda"/>
+  <rect x="606" y="236" width="138" height="18" rx="9" fill="#1d2822"/>
+  <rect x="606" y="286" width="212" height="36" rx="10" fill="#0d705c"/>
+  <rect x="606" y="342" width="154" height="12" rx="6" fill="#6f7f75"/>
+  <rect x="606" y="370" width="188" height="12" rx="6" fill="#a0aaa4"/>
+
+  <rect x="904" y="202" width="290" height="214" rx="24" fill="#edf3ef" stroke="#d8dfda"/>
+  <rect x="936" y="236" width="128" height="18" rx="9" fill="#1d2822"/>
+  <rect x="936" y="294" width="48" height="76" rx="10" fill="#6bd0b4"/>
+  <rect x="1008" y="270" width="48" height="100" rx="10" fill="#2b5f93"/>
+  <rect x="1080" y="318" width="48" height="52" rx="10" fill="#b8563a"/>
+
+  <rect x="116" y="468" width="768" height="186" rx="24" fill="#ffffff" stroke="#d8dfda"/>
+  <rect x="148" y="500" width="184" height="18" rx="9" fill="#1d2822"/>
+  <rect x="148" y="548" width="184" height="76" rx="16" fill="#edf3ef"/>
+  <rect x="174" y="570" width="86" height="12" rx="6" fill="#5f6b64"/>
+  <rect x="174" y="594" width="118" height="10" rx="5" fill="#9aa9a1"/>
+  <rect x="360" y="548" width="184" height="76" rx="16" fill="#edf3ef"/>
+  <rect x="386" y="570" width="104" height="12" rx="6" fill="#5f6b64"/>
+  <rect x="386" y="594" width="118" height="10" rx="5" fill="#9aa9a1"/>
+  <rect x="572" y="548" width="184" height="76" rx="16" fill="#edf3ef"/>
+  <rect x="598" y="570" width="92" height="12" rx="6" fill="#5f6b64"/>
+  <rect x="598" y="594" width="118" height="10" rx="5" fill="#9aa9a1"/>
+
+  <rect x="922" y="468" width="272" height="186" rx="24" fill="#10372f"/>
+  <rect x="954" y="506" width="134" height="18" rx="9" fill="#edf7f1"/>
+  <rect x="954" y="552" width="182" height="12" rx="6" fill="#9ec8ba"/>
+  <rect x="954" y="594" width="142" height="40" rx="10" fill="#6bd0b4"/>
+</svg>

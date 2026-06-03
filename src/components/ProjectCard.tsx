@@ -7,11 +7,19 @@ type ProjectCardProps = {
 };
 
 export function ProjectCard({ project }: ProjectCardProps) {
+  const preview = <img src={project.imageUrl} alt={`${project.title} interface preview`} loading="lazy" />;
+
   return (
     <article className="project-card">
-      <a className="project-media" href={project.demoUrl} target="_blank" rel="noreferrer">
-        <img src={project.imageUrl} alt={`${project.title} interface preview`} loading="lazy" />
-      </a>
+      {project.demoUrl ? (
+        <a className="project-media" href={project.demoUrl} target="_blank" rel="noreferrer">
+          {preview}
+        </a>
+      ) : (
+        <div className="project-media" aria-label={`${project.title} interface preview`}>
+          {preview}
+        </div>
+      )}
       <div className="project-body">
         <div className="project-kicker" style={{ '--project-accent': project.accent } as CSSProperties}>
           <span aria-hidden="true" />
@@ -21,15 +29,15 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <p>{project.description}</p>
         <dl className="project-details">
           <div>
-            <dt>Problem</dt>
+            <dt>Kebutuhan</dt>
             <dd>{project.problem}</dd>
           </div>
           <div>
-            <dt>Role</dt>
+            <dt>Peran</dt>
             <dd>{project.role}</dd>
           </div>
           <div>
-            <dt>Outcome</dt>
+            <dt>Hasil</dt>
             <dd>{project.outcome}</dd>
           </div>
         </dl>
@@ -38,14 +46,20 @@ export function ProjectCard({ project }: ProjectCardProps) {
             <span key={tech}>{tech}</span>
           ))}
         </div>
-        <div className="project-actions">
-          <a className="text-link" href={project.demoUrl} target="_blank" rel="noreferrer">
-            Live demo <ArrowUpRight aria-hidden="true" size={16} />
-          </a>
-          <a className="text-link muted-link" href={project.sourceUrl} target="_blank" rel="noreferrer">
-            <Code2 aria-hidden="true" size={16} /> Source
-          </a>
-        </div>
+        {project.demoUrl || project.sourceUrl ? (
+          <div className="project-actions">
+            {project.demoUrl ? (
+              <a className="text-link" href={project.demoUrl} target="_blank" rel="noreferrer">
+                Live demo <ArrowUpRight aria-hidden="true" size={16} />
+              </a>
+            ) : null}
+            {project.sourceUrl ? (
+              <a className="text-link muted-link" href={project.sourceUrl} target="_blank" rel="noreferrer">
+                <Code2 aria-hidden="true" size={16} /> Source
+              </a>
+            ) : null}
+          </div>
+        ) : null}
       </div>
     </article>
   );

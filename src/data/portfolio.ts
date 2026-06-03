@@ -12,14 +12,14 @@ export const navItems: NavItem[] = [
 export const profile: Profile = {
   name: 'Alif',
   initials: 'AF',
-  role: 'React Frontend Developer',
+  role: 'Laravel & React Developer',
   location: 'Indonesia, UTC+7',
   email: 'hello@alif.dev',
   resumeUrl: '/resume.html',
   summary:
-    'Saya membangun antarmuka web yang cepat, rapi, dan mudah dipakai untuk produk digital modern.',
+    'Saya membuat website dengan Laravel dan React, mulai dari tampilan, fitur, sampai pengelolaan data.',
   intro:
-    'Fokus saya ada di React, desain sistem ringan, aksesibilitas, dan pengalaman pengguna yang terasa stabil di perangkat mobile maupun desktop. Saya senang merapikan kebutuhan produk menjadi komponen yang konsisten, mudah diuji, dan nyaman dikembangkan lagi.',
+    'Saya adalah web developer yang suka membangun website yang jelas, mudah digunakan, dan sesuai kebutuhan. Saat ini saya fokus mengerjakan project berbasis Laravel untuk backend serta React untuk frontend, dengan perhatian pada struktur kode, tampilan responsive, dan alur pengguna yang sederhana.',
   socials: [
     { label: 'GitHub', href: 'https://github.com/', icon: Code2 },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/', icon: BriefcaseBusiness },
@@ -29,98 +29,79 @@ export const profile: Profile = {
 };
 
 export const stats: Stat[] = [
-  { value: '12+', label: 'UI modules shipped' },
-  { value: '90+', label: 'Lighthouse target' },
-  { value: '3', label: 'Featured case studies' },
+  { value: '2', label: 'Featured projects' },
+  { value: 'Laravel', label: 'Backend focus' },
+  { value: 'React', label: 'Frontend focus' },
 ];
 
 export const skillGroups: SkillGroup[] = [
   {
-    title: 'Frontend',
-    description: 'Membangun UI modular dengan state yang jelas dan performa yang terukur.',
-    skills: ['React', 'TypeScript', 'Vite', 'HTML', 'CSS', 'Responsive UI'],
+    title: 'Laravel',
+    description: 'Membangun fitur backend, routing, autentikasi, dan pengelolaan data untuk aplikasi web.',
+    skills: ['Laravel', 'PHP', 'Blade', 'MySQL', 'REST API', 'Authentication'],
   },
   {
-    title: 'Product UI',
-    description: 'Merapikan alur kerja pengguna dari wireframe sampai interaksi final.',
-    skills: ['Design Systems', 'Accessibility', 'UX Writing', 'Prototyping', 'Microinteractions'],
+    title: 'React',
+    description: 'Membuat antarmuka yang responsive, reusable, dan nyaman digunakan di berbagai perangkat.',
+    skills: ['React', 'TypeScript', 'Vite', 'Component UI', 'State Handling', 'Responsive CSS'],
   },
   {
-    title: 'Delivery',
-    description: 'Menjaga proyek tetap siap deploy, mudah dicek, dan gampang dikembangkan.',
-    skills: ['Git', 'ESLint', 'Performance QA', 'Vercel', 'Documentation'],
+    title: 'Workflow',
+    description: 'Menjaga project tetap rapi dari development lokal sampai proses deploy.',
+    skills: ['Git', 'NPM', 'ESLint', 'Build Check', 'Vercel', 'Documentation'],
   },
 ];
 
 export const projects: Project[] = [
   {
-    title: 'TalentFlow Dashboard',
-    category: 'SaaS Operations',
+    title: 'Website Univ',
+    category: 'Laravel Website',
     description:
-      'Dashboard rekrutmen untuk membantu tim melihat pipeline kandidat, SLA review, dan prioritas interview.',
+      'Website kampus berbasis Laravel untuk menampilkan informasi universitas, halaman profil, berita, dan konten akademik secara lebih tertata.',
     problem:
-      'Tim perlu memantau kandidat aktif tanpa berpindah antar spreadsheet, chat, dan kalender.',
-    role: 'Frontend architecture, dashboard UI, data-state modeling',
-    outcome: 'Mengurangi waktu scan pipeline dan membuat status kandidat lebih mudah dibandingkan.',
-    techStack: ['React', 'TypeScript', 'CSS Grid', 'Charts'],
-    imageUrl: '/project-talentflow.svg',
-    demoUrl: 'https://example.com/talentflow',
-    sourceUrl: 'https://github.com/',
+      'Informasi kampus perlu disusun dalam halaman yang mudah dibaca, mudah diperbarui, dan nyaman diakses oleh calon mahasiswa maupun pengunjung umum.',
+    role: 'Membangun struktur halaman, layout responsive, dan integrasi konten menggunakan Laravel.',
+    outcome: 'Website menjadi lebih rapi sebagai pusat informasi kampus dengan navigasi yang sederhana dan tampilan yang konsisten.',
+    techStack: ['Laravel', 'PHP', 'Blade', 'MySQL', 'HTML', 'CSS'],
+    imageUrl: '/website-univ.png',
     accent: '#0d705c',
   },
   {
-    title: 'Atlas Commerce UI',
-    category: 'E-commerce',
+    title: 'Ourecycle',
+    category: 'Laravel & React App',
     description:
-      'Interface katalog dan checkout untuk storefront kecil dengan fokus pada kecepatan pilih produk.',
+      'Aplikasi web bertema daur ulang yang membantu pengguna melihat informasi program, aktivitas, dan pengelolaan data recycle dalam satu platform.',
     problem:
-      'Pembeli mobile butuh alur produk, varian, dan ringkasan order yang tetap jelas di layar kecil.',
-    role: 'Component system, responsive layout, checkout flow',
-    outcome: 'Membuat katalog lebih mudah dipindai dan ringkasan checkout tetap terlihat tanpa mengganggu fokus.',
-    techStack: ['React', 'Vite', 'Local State', 'Responsive CSS'],
-    imageUrl: '/project-commerce.svg',
-    demoUrl: 'https://example.com/atlas-commerce',
-    sourceUrl: 'https://github.com/',
+      'Data dan informasi kegiatan recycle perlu ditampilkan dengan alur yang mudah dipahami, sekaligus tetap bisa dikelola melalui sistem web.',
+    role: 'Mengerjakan tampilan React, struktur fitur, dan integrasi dengan backend Laravel.',
+    outcome: 'Platform lebih mudah digunakan untuk memperkenalkan program recycle dan mengelola informasi yang dibutuhkan pengguna.',
+    techStack: ['Laravel', 'React', 'PHP', 'TypeScript', 'MySQL', 'Responsive UI'],
+    imageUrl: '/ourecycle.svg',
     accent: '#b8563a',
-  },
-  {
-    title: 'Pulse Analytics Studio',
-    category: 'Data Product',
-    description:
-      'Workspace analitik untuk merangkum metrik kampanye, tren mingguan, dan insight prioritas.',
-    problem:
-      'Stakeholder perlu membaca metrik penting tanpa membuka banyak laporan terpisah.',
-    role: 'Information design, card patterns, interaction states',
-    outcome: 'Menyatukan metrik, tren, dan catatan keputusan dalam satu layar kerja yang padat.',
-    techStack: ['React', 'TypeScript', 'Data Viz', 'A11y'],
-    imageUrl: '/project-pulse.svg',
-    demoUrl: 'https://example.com/pulse-analytics',
-    sourceUrl: 'https://github.com/',
-    accent: '#2b5f93',
   },
 ];
 
 export const experience: ExperienceItem[] = [
   {
-    role: 'Frontend Developer',
+    role: 'Laravel & React Developer',
     company: 'Independent Projects',
     period: '2024 - Present',
     description:
-      'Membangun UI React untuk dashboard, landing product, dan workflow tools dengan pendekatan komponen reusable.',
+      'Mengerjakan project website dengan Laravel dan React, mulai dari struktur halaman, fitur utama, sampai tampilan responsive.',
     highlights: [
-      'Menyusun struktur data konten agar portfolio dan product pages mudah diperbarui.',
-      'Mengoptimasi layout responsive untuk mobile-first review dan desktop productivity.',
+      'Membuat halaman dan fitur yang mudah dipahami oleh pengguna.',
+      'Menjaga struktur kode dan tampilan agar tetap rapi saat project berkembang.',
     ],
   },
   {
-    role: 'UI Implementation Lead',
+    role: 'Web Project Builder',
     company: 'Product Experiments',
     period: '2023 - 2024',
     description:
-      'Menerjemahkan kebutuhan produk menjadi prototipe frontend yang bisa diuji cepat oleh pengguna internal.',
+      'Membuat prototipe dan halaman web untuk kebutuhan project kecil, latihan, dan pengembangan fitur.',
     highlights: [
-      'Membuat komponen navigasi, card, form, dan feedback state yang konsisten.',
-      'Menyiapkan checklist aksesibilitas dasar untuk form, focus state, dan semantic sections.',
+      'Mengerjakan layout, form, navigasi, dan tampilan konten.',
+      'Membiasakan proses cek ulang sebelum build atau deploy.',
     ],
   },
   {
@@ -128,7 +109,7 @@ export const experience: ExperienceItem[] = [
     company: 'Personal Lab',
     period: '2022 - 2023',
     description:
-      'Mendalami fondasi web modern melalui proyek kecil, dokumentasi teknis, dan eksperimen UI.',
+      'Mendalami dasar pengembangan web melalui project kecil, dokumentasi, dan eksperimen Laravel serta React.',
     highlights: [
       'Membiasakan penggunaan Git, TypeScript, linting, dan build verification.',
       'Membangun kebiasaan dokumentasi agar keputusan teknis mudah dilacak.',

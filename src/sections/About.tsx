@@ -7,9 +7,9 @@ type AboutProps = {
 };
 
 const principles = [
-  'Komponen kecil, state eksplisit, dan data konten yang mudah diganti.',
-  'Layout responsive yang dirancang dari layar kecil sebelum diperluas ke desktop.',
-  'Aksesibilitas dasar: semantic HTML, focus state, label form, dan kontras warna.',
+  'Membuat fitur web dengan struktur yang mudah dipahami dan dikembangkan lagi.',
+  'Menggabungkan Laravel untuk backend dan React untuk tampilan yang interaktif.',
+  'Menjaga halaman tetap responsive, rapi, dan nyaman dipakai di perangkat berbeda.',
 ];
 
 export function About({ profile }: AboutProps) {
@@ -17,15 +17,15 @@ export function About({ profile }: AboutProps) {
     <section className="section about-section" id="about" aria-labelledby="about-title">
       <SectionHeading
         eyebrow="About"
-        title="Frontend yang terasa jelas sejak interaksi pertama."
-        description="Saya menyukai interface yang padat informasi, tetapi tetap tenang saat digunakan berulang kali."
+        title="Saya membuat website yang rapi dan mudah digunakan."
+        description="Fokus saya adalah membangun project web dengan Laravel dan React sesuai kebutuhan pengguna."
       />
       <div className="about-layout">
         <div className="about-copy">
           <p>{profile.intro}</p>
           <p>
-            Pendekatan saya menggabungkan struktur teknis React dengan perhatian pada microcopy, ritme layout,
-            dan state kosong atau error yang sering menentukan kualitas produk sehari-hari.
+            Dalam mengerjakan project, saya biasanya mulai dari memahami kebutuhan, menyusun struktur halaman,
+            membuat fitur utama, lalu memastikan tampilan tetap enak digunakan di desktop maupun mobile.
           </p>
         </div>
         <ul className="principle-list" aria-label="Working principles">

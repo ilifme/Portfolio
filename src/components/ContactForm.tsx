@@ -51,7 +51,7 @@ export function ContactForm({ recipientEmail }: ContactFormProps) {
       <input id="email" name="email" type="email" autoComplete="email" placeholder="nama@email.com" required />
 
       <label htmlFor="subject">Subjek</label>
-      <input id="subject" name="subject" type="text" placeholder="Project React, kolaborasi, atau peluang kerja" />
+      <input id="subject" name="subject" type="text" placeholder="Project Laravel, React, kolaborasi, atau peluang kerja" />
 
       <label htmlFor="message">Pesan</label>
       <textarea

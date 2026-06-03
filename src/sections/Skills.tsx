@@ -10,8 +10,8 @@ export function Skills({ skillGroups }: SkillsProps) {
     <section className="section skills-section" id="skills" aria-labelledby="skills-title">
       <SectionHeading
         eyebrow="Skills"
-        title="Stack yang fokus pada React, delivery, dan kualitas UI."
-        description="Skill dikelompokkan berdasarkan pekerjaan nyata yang muncul saat membangun produk web."
+        title="Stack yang fokus pada Laravel, React, dan delivery web."
+        description="Skill dikelompokkan berdasarkan kebutuhan yang sering muncul saat membangun website."
       />
       <div className="skill-grid">
         {skillGroups.map((group) => (

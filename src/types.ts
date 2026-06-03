@@ -43,8 +43,8 @@ export type Project = {
   outcome: string;
   techStack: string[];
   imageUrl: string;
-  demoUrl: string;
-  sourceUrl: string;
+  demoUrl?: string;
+  sourceUrl?: string;
   accent: string;
 };
 
