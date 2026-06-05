@@ -1,4 +1,4 @@
-import type { LucideIcon } from 'lucide-react';
+﻿import type { LucideIcon } from 'lucide-react';
 
 export type NavItem = {
   label: string;
@@ -18,6 +18,7 @@ export type Profile = {
   location: string;
   email: string;
   resumeUrl: string;
+  photoUrl?: string;
   summary: string;
   intro: string;
   socials: SocialLink[];
@@ -61,3 +62,4 @@ export type Testimonial = {
   name: string;
   role: string;
 };
+

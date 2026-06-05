@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, Code2, Mail, Send } from 'lucide-react';
+﻿import { BriefcaseBusiness, Code2, Mail, Send } from 'lucide-react';
 import type { ExperienceItem, NavItem, Profile, Project, SkillGroup, Stat, Testimonial } from '../types';
 
 export const navItems: NavItem[] = [
@@ -10,118 +10,107 @@ export const navItems: NavItem[] = [
 ];
 
 export const profile: Profile = {
-  name: 'Alif',
+  name: 'Alif Fahmi Syaifuddin',
   initials: 'AF',
-  role: 'Laravel & React Developer',
-  location: 'Indonesia, UTC+7',
-  email: 'hello@alif.dev',
+  role: 'Mahasiswa IT | Universitas Duta Bangsa Surakarta',
+  location: 'Surakarta, Indonesia',
+  email: 'aliffahmi1500@gmail.com',
   resumeUrl: '/resume.html',
+  photoUrl: '/alif.png',
   summary:
-    'Saya membuat website dengan Laravel dan React, mulai dari tampilan, fitur, sampai pengelolaan data.',
+    'Mahasiswa IT dengan minat di Pemrograman & Jaringan. Aktif membangun aplikasi web menggunakan Laravel, React, dan Flutter.',
   intro:
-    'Saya adalah web developer yang suka membangun website yang jelas, mudah digunakan, dan sesuai kebutuhan. Saat ini saya fokus mengerjakan project berbasis Laravel untuk backend serta React untuk frontend, dengan perhatian pada struktur kode, tampilan responsive, dan alur pengguna yang sederhana.',
+    'Mahasiswa Informatika di Universitas Duta Bangsa Surakarta dengan ketertarikan kuat pada Pemrograman Web dan Jaringan. Berpengalaman membangun aplikasi menggunakan Laravel untuk backend, React untuk frontend interaktif, dan Flutter untuk pengembangan mobile. Selalu antusias mengeksplorasi teknologi baru dan menyelesaikan tantangan teknis.',
   socials: [
     { label: 'GitHub', href: 'https://github.com/', icon: Code2 },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/', icon: BriefcaseBusiness },
-    { label: 'Email', href: 'mailto:hello@alif.dev', icon: Mail },
+    { label: 'Email', href: 'mailto:aliffahmi1500@gmail.com', icon: Mail },
     { label: 'Send brief', href: '#contact', icon: Send },
   ],
 };
 
 export const stats: Stat[] = [
-  { value: '2', label: 'Featured projects' },
-  { value: 'Laravel', label: 'Backend focus' },
-  { value: 'React', label: 'Frontend focus' },
+  { value: '3+', label: 'Framework dikuasai' },
+  { value: '5+', label: 'Project selesai' },
+  { value: '2', label: 'Tahun belajar aktif' },
 ];
 
 export const skillGroups: SkillGroup[] = [
   {
-    title: 'Laravel',
-    description: 'Membangun fitur backend, routing, autentikasi, dan pengelolaan data untuk aplikasi web.',
-    skills: ['Laravel', 'PHP', 'Blade', 'MySQL', 'REST API', 'Authentication'],
+    title: 'Frontend',
+    description: 'Membangun UI modern dengan React, TypeScript, dan Flutter.',
+    skills: ['React', 'TypeScript', 'JavaScript', 'Flutter', 'HTML', 'CSS', 'Responsive UI'],
   },
   {
-    title: 'React',
-    description: 'Membuat antarmuka yang responsive, reusable, dan nyaman digunakan di berbagai perangkat.',
-    skills: ['React', 'TypeScript', 'Vite', 'Component UI', 'State Handling', 'Responsive CSS'],
+    title: 'Backend & Framework',
+    description: 'Membangun aplikasi web berbasis Laravel dengan database terstruktur.',
+    skills: ['Laravel', 'PHP', 'Python', 'Database', 'Eloquent'],
   },
   {
-    title: 'Workflow',
-    description: 'Menjaga project tetap rapi dari development lokal sampai proses deploy.',
-    skills: ['Git', 'NPM', 'ESLint', 'Build Check', 'Vercel', 'Documentation'],
+    title: 'Jaringan & Tools',
+    description: 'Memahami konfigurasi jaringan, routing, dan administrasi perangkat Mikrotik.',
+    skills: ['Git', 'Networking', 'Linux', 'Mikrotik'],
   },
 ];
 
 export const projects: Project[] = [
   {
     title: 'Website Univ',
-    category: 'Laravel Website',
+    category: 'Website',
     description:
-      'Website kampus berbasis Laravel untuk menampilkan informasi universitas, halaman profil, berita, dan konten akademik secara lebih tertata.',
+      'Laravel Project.',
     problem:
-      'Informasi kampus perlu disusun dalam halaman yang mudah dibaca, mudah diperbarui, dan nyaman diakses oleh calon mahasiswa maupun pengunjung umum.',
-    role: 'Membangun struktur halaman, layout responsive, dan integrasi konten menggunakan Laravel.',
-    outcome: 'Website menjadi lebih rapi sebagai pusat informasi kampus dengan navigasi yang sederhana dan tampilan yang konsisten.',
-    techStack: ['Laravel', 'PHP', 'Blade', 'MySQL', 'HTML', 'CSS'],
+      'Membutuhkan website untuk menampilkan informasi akademik, berita, dan layanan mahasiswa dengan manajemen konten yang',
+    role: 'Frontend, dashboard UI',
+    outcome: 'Website berbasis Framework Laravel dengan dashboard untuk manajemen konten dan data mahasiswa.',
+    techStack: ['Laravel'],
     imageUrl: '/website-univ.png',
-    accent: '#0d705c',
+    demoUrl: 'http://127.0.0.1:8000/',
+    sourceUrl: 'http://127.0.0.1:8000/',
+    accent: '#a855f7',
   },
   {
     title: 'Ourecycle',
-    category: 'Laravel & React App',
+    category: 'Bank Sampah',
     description:
-      'Aplikasi web bertema daur ulang yang membantu pengguna melihat informasi program, aktivitas, dan pengelolaan data recycle dalam satu platform.',
+      'Interface katalog dan checkout untuk storefront kecil dengan fokus pada kecepatan pilih produk.',
     problem:
-      'Data dan informasi kegiatan recycle perlu ditampilkan dengan alur yang mudah dipahami, sekaligus tetap bisa dikelola melalui sistem web.',
-    role: 'Mengerjakan tampilan React, struktur fitur, dan integrasi dengan backend Laravel.',
-    outcome: 'Platform lebih mudah digunakan untuk memperkenalkan program recycle dan mengelola informasi yang dibutuhkan pengguna.',
-    techStack: ['Laravel', 'React', 'PHP', 'TypeScript', 'MySQL', 'Responsive UI'],
-    imageUrl: '/ourecycle.svg',
-    accent: '#b8563a',
+      'Pengelolaan sampah yang efisien dan ramah lingkungan.',
+    role: 'Component system, responsive layout, checkout flow',
+    outcome: 'Membuat katalog lebih mudah dipindai dan ringkasan checkout tetap terlihat tanpa mengganggu fokus.',
+    techStack: ['React', 'Vite', 'Local State', 'Responsive CSS'],
+    imageUrl: '/Ourecycle.png',
+    demoUrl: 'https://example.com/atlas-commerce',
+    sourceUrl: 'https://github.com/',
+    accent: '#7c3aed',
   },
 ];
 
 export const experience: ExperienceItem[] = [
   {
-    role: 'Laravel & React Developer',
+    role: 'Frontend Developer',
     company: 'Independent Projects',
     period: '2024 - Present',
     description:
-      'Mengerjakan project website dengan Laravel dan React, mulai dari struktur halaman, fitur utama, sampai tampilan responsive.',
-    highlights: [
-      'Membuat halaman dan fitur yang mudah dipahami oleh pengguna.',
-      'Menjaga struktur kode dan tampilan agar tetap rapi saat project berkembang.',
-    ],
-  },
-  {
-    role: 'Web Project Builder',
-    company: 'Product Experiments',
-    period: '2023 - 2024',
-    description:
-      'Membuat prototipe dan halaman web untuk kebutuhan project kecil, latihan, dan pengembangan fitur.',
-    highlights: [
-      'Mengerjakan layout, form, navigasi, dan tampilan konten.',
-      'Membiasakan proses cek ulang sebelum build atau deploy.',
-    ],
-  },
-  {
-    role: 'Web Development Learner',
-    company: 'Personal Lab',
-    period: '2022 - 2023',
-    description:
-      'Mendalami dasar pengembangan web melalui project kecil, dokumentasi, dan eksperimen Laravel serta React.',
-    highlights: [
-      'Membiasakan penggunaan Git, TypeScript, linting, dan build verification.',
-      'Membangun kebiasaan dokumentasi agar keputusan teknis mudah dilacak.',
-    ],
+      'Membangun UI React untuk dashboard, landing product, dan workflow tools dengan pendekatan komponen reusable.',
+    highlights: [],
   },
 ];
 
 export const testimonials: Testimonial[] = [
   {
     quote:
-      'Ia punya cara kerja yang tenang dan detail. UI yang dikirim terasa siap dipakai, bukan sekadar tampilan cantik.',
+      '.',
     name: 'Product Collaborator',
     role: 'Internal Review',
   },
 ];
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-import { ArrowDown, Download, MapPin, Sparkles } from 'lucide-react';
+﻿import { ArrowDown, Download, MapPin, Sparkles } from 'lucide-react';
 import type { Profile, Stat } from '../types';
 
 type HeroProps = {
@@ -14,7 +14,7 @@ export function Hero({ profile, stats }: HeroProps) {
           <Sparkles aria-hidden="true" size={16} /> Portfolio 2026
         </p>
         <h1 id="hero-title">
-          {profile.name} builds Laravel and React web apps.
+          {profile.name}
         </h1>
         <p className="hero-summary">{profile.summary}</p>
         <div className="hero-actions">
@@ -35,12 +35,16 @@ export function Hero({ profile, stats }: HeroProps) {
 
       <div className="hero-visual" aria-label="Portfolio capability snapshot">
         <div className="profile-orbit" aria-hidden="true">
-          <span>{profile.initials}</span>
+          {profile.photoUrl ? (
+            <img className="profile-photo" src={profile.photoUrl} alt="" />
+          ) : (
+            <span>{profile.initials}</span>
+          )}
         </div>
         <div className="signal-panel">
           <div className="signal-header">
             <span>Current focus</span>
-            <strong>Laravel + React</strong>
+            <strong>Laravel + React + Flutter</strong>
           </div>
           <div className="signal-grid">
             {stats.map((stat) => (
@@ -53,7 +57,7 @@ export function Hero({ profile, stats }: HeroProps) {
           <div className="workflow-list">
             <span>Laravel backend</span>
             <span>React frontend</span>
-            <span>Responsive layout</span>
+            <span>Flutter mobile</span>
           </div>
         </div>
       </div>

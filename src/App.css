@@ -925,3 +925,82 @@
     font-size: 2rem;
   }
 }
+
+/* -- Featured Tech Icons (Purple Glow) -- */
+.featured-techs {
+  display: flex;
+  justify-content: center;
+  gap: clamp(2rem, 6vw, 4rem);
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--color-muted);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.tech-icon-glow {
+  color: #c084fc;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: rgba(168, 85, 247, 0.08);
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.3), 0 0 40px rgba(168, 85, 247, 0.15);
+  transition: box-shadow 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+}
+
+.tech-item:hover .tech-icon-glow {
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.6), 0 0 60px rgba(168, 85, 247, 0.3);
+  border-color: rgba(168, 85, 247, 0.5);
+  transform: translateY(-4px);
+}
+
+.tech-icon-glow svg {
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 720px) {
+  .featured-techs {
+    gap: 1.5rem;
+  }
+
+  .tech-icon-glow {
+    width: 56px;
+    height: 56px;
+  }
+
+  .tech-icon-glow svg {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* -- Profile Photo -- */
+.brand-photo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 42px;
+  border: 2px solid rgba(168, 85, 247, 0.3);
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(168, 85, 247, 0.3);
+  box-shadow: 0 0 16px rgba(168, 85, 247, 0.25);
+}
