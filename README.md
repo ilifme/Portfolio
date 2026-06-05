@@ -44,47 +44,4 @@ npm run preview
 
 ## Struktur Konten
 
-Konten utama berada di:
 
-```text
-src/data/portfolio.ts
-```
-
-File tersebut mengatur:
-
-- profil utama
-- link sosial
-- statistik hero
-- grup skill
-- proyek unggulan
-- pengalaman
-- testimoni singkat
-
-Visual proyek berada di folder:
-
-```text
-public/
-```
-
-Ganti SVG preview dengan screenshot final proyek saat aset nyata sudah tersedia.
-
-## Deployment
-
-Build output berada di folder `dist/`, sehingga proyek bisa dideploy ke Vercel, Netlify, Cloudflare Pages, atau static hosting lain.
-
-Untuk Vercel:
-
-Production URL:
-
-https://react-portfolio-nu-murex.vercel.app
-
-1. Import repository.
-2. Gunakan build command `npm run build`.
-3. Gunakan output directory `dist`.
-
-## Catatan Personalisasi
-
-- Ganti `hello@alif.dev` dengan email aktif.
-- Ganti link GitHub dan LinkedIn di `src/data/portfolio.ts`.
-- Ganti `public/resume.html` dengan file CV final.
-- Tambahkan link demo dan source code project di `src/data/portfolio.ts` jika URL sudah tersedia.
