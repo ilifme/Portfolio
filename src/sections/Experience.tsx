@@ -11,7 +11,7 @@ export function Experience({ experience, testimonials }: ExperienceProps) {
     <section className="section experience-section" id="experience" aria-labelledby="experience-title">
       <SectionHeading
         eyebrow="Experience"
-        title="Progress kerja yang mudah dilacak dari ide sampai deploy."
+        title="Progress kerja dari ide sampai deploy."
         description="Pengalaman saya bergerak di implementasi UI, prototipe produk, dokumentasi teknis, dan quality pass sebelum rilis."
       />
       <div className="experience-layout">

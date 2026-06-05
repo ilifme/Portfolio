@@ -18,7 +18,7 @@ export function About({ profile }: AboutProps) {
       <SectionHeading
         eyebrow="About"
         title="Saya membuat website yang rapi dan mudah digunakan."
-        description="Fokus saya adalah membangun project web dengan Laravel dan React sesuai kebutuhan pengguna."
+        description="Fokus saya adalah membangun project web sesuai kebutuhan pengguna."
       />
       <div className="about-layout">
         <div className="about-copy">

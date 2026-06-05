@@ -12,7 +12,7 @@ export function Contact({ profile }: ContactProps) {
     <section className="section contact-section" id="contact" aria-labelledby="contact-title">
       <SectionHeading
         eyebrow="Contact"
-        title="Punya project Laravel atau React yang ingin dibuat?"
+        title="Punya project yang ingin dibuat?"
         description="Kirim konteks singkat tentang kebutuhan website, fitur utama, timeline, dan target pengguna."
       />
       <div className="contact-layout">

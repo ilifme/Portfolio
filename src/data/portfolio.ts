@@ -55,14 +55,14 @@ export const skillGroups: SkillGroup[] = [
 
 export const projects: Project[] = [
   {
-    title: 'Website Univ',
+    title: 'Website Universitas',
     category: 'Website',
     description:
       'Laravel Project.',
     problem:
-      'Membutuhkan website untuk menampilkan informasi akademik, berita, dan layanan mahasiswa dengan manajemen konten yang',
+      'Membutuhkan website untuk menampilkan informasi akademik, berita, dan layanan mahasiswa dengan manajemen konten yang mudah.',
     role: 'Frontend, dashboard UI',
-    outcome: 'Website berbasis Framework Laravel dengan dashboard untuk manajemen konten dan data mahasiswa.',
+    outcome: 'Website berbasis Framework Laravel dengan dashboard untuk manajemen konten dan data mahasiswa yang dapat ditambah lewat dashboard admin.',
     techStack: ['Laravel'],
     imageUrl: '/website-univ.png',
     demoUrl: 'http://127.0.0.1:8000/',
@@ -73,14 +73,14 @@ export const projects: Project[] = [
     title: 'Ourecycle',
     category: 'Bank Sampah',
     description:
-      'Interface katalog dan checkout untuk storefront kecil dengan fokus pada kecepatan pilih produk.',
+      'Aplikasi mobile untuk pengelolaan sampah yang efisien dan ramah lingkungan dan mendapatkan point yang dapat dikonversi.',
     problem:
       'Pengelolaan sampah yang efisien dan ramah lingkungan.',
     role: 'Component system, responsive layout, checkout flow',
-    outcome: 'Membuat katalog lebih mudah dipindai dan ringkasan checkout tetap terlihat tanpa mengganggu fokus.',
-    techStack: ['React', 'Vite', 'Local State', 'Responsive CSS'],
+    outcome: 'Membuat aplikasi mobile yang memudahkan pengelolaan sampah dan memberikan pengalaman pengguna yang baik.',
+    techStack: ['Flutter'],
     imageUrl: '/Ourecycle.png',
-    demoUrl: 'https://example.com/atlas-commerce',
+    demoUrl: '',
     sourceUrl: 'https://github.com/',
     accent: '#7c3aed',
   },

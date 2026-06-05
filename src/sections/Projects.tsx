@@ -11,8 +11,8 @@ export function Projects({ projects }: ProjectsProps) {
     <section className="section projects-section" id="projects" aria-labelledby="projects-title">
       <SectionHeading
         eyebrow="Projects"
-        title="Project Laravel dan React yang saya kerjakan."
-        description="Bagian ini menampilkan project Website Univ dan Ourecycle dengan fokus pada kebutuhan, peran, teknologi, dan hasilnya."
+        title="Project yang saya kerjakan."
+        description="Bagian ini menampilkan project dengan fokus pada kebutuhan, peran, teknologi, dan hasilnya."
       />
       <div className="project-list">
         {projects.map((project) => (
