@@ -61,7 +61,7 @@ export const projects: Project[] = [
       'Laravel Project.',
     problem:
       'Membutuhkan website untuk menampilkan informasi akademik, berita, dan layanan mahasiswa dengan manajemen konten yang mudah.',
-    role: 'Frontend, dashboard UI',
+    role: 'Frontend, Backend, dashboard UI',
     outcome: 'Website berbasis Framework Laravel dengan dashboard untuk manajemen konten dan data mahasiswa yang dapat ditambah lewat dashboard admin.',
     techStack: ['Laravel'],
     imageUrl: '/website-univ.png',
