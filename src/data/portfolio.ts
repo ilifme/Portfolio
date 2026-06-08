@@ -65,7 +65,7 @@ export const projects: Project[] = [
     outcome: 'Website berbasis Framework Laravel dengan dashboard untuk manajemen konten dan data mahasiswa yang dapat ditambah lewat dashboard admin.',
     techStack: ['Laravel'],
     imageUrl: '/website-univ.png',
-    demoUrl: 'https://universitas-purbayan.vercel.app/',
+    demoUrl: 'https://laravel-production-a4c1.up.railway.app/',
     sourceUrl: 'https://github.com/ilifme/Univ-Purbayan.git/',
     accent: '#a855f7',
   },
