@@ -66,7 +66,7 @@ export const projects: Project[] = [
     techStack: ['Laravel'],
     imageUrl: '/website-univ.png',
     demoUrl: 'https://laravel-production-a4c1.up.railway.app/',
-    sourceUrl: 'https://github.com/ilifme/Univ-Purbayan.git/',
+    sourceUrl: 'https://github.com/',
     accent: '#a855f7',
   },
   {
