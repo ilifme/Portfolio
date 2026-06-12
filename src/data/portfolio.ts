@@ -79,7 +79,7 @@ export const projects: Project[] = [
     role: 'Component system, responsive layout, checkout flow',
     outcome: 'Membuat aplikasi mobile yang memudahkan pengelolaan sampah dan memberikan pengalaman pengguna yang baik.',
     techStack: ['Flutter'],
-    imageUrl: '/ourecycle.png',
+    imageUrl: '/Ourecycle.png',
     demoUrl: '',
     sourceUrl: 'https://github.com/',
     accent: '#7c3aed',
