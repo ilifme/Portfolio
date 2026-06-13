@@ -84,6 +84,23 @@ export const projects: Project[] = [
     sourceUrl: 'https://github.com/',
     accent: '#7c3aed',
   },
+  {
+    title: 'Web Masjid',
+    category: 'Website',
+    description:
+      'Website profil masjid dengan fitur informasi kegiatan, jadwal sholat, galeri, dan manajemen konten.',
+    problem:
+      'Masjid membutuhkan website untuk menyebarkan informasi kegiatan, jadwal ibadah, dan dokumentasi secara terpusat dan mudah dikelola.',
+    role:
+      'Full-stack (Desain UI, Frontend, Backend, Deployment)',
+    outcome:
+      'Website masjid berbasis React dengan dashboard admin untuk kelola konten, jadwal sholat otomatis, galeri foto, dan halaman profil yang informatif.',
+    techStack: ['React', 'Supabase', 'Tailwind CSS'],
+    imageUrl: '/masjid.png',
+    demoUrl: 'https://masjid-quba.vercel.app/',
+    sourceUrl: 'https://github.com/',
+    accent: '#6366f1',
+  },
 ];
 
 export const experience: ExperienceItem[] = [
@@ -105,6 +122,7 @@ export const testimonials: Testimonial[] = [
     role: 'Internal Review',
   },
 ];
+
 
 
 
